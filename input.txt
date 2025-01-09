@@ -1,0 +1,11 @@
+School Members:
+Hi, I am Harry Potter, a 21-year-old Male. I am a student with ID 1.
+Hi, I am Ron Qeasley, a 20-year-old Male. I am a student with ID 2.
+Hi, I am Hermione Granger, a 19-year-old Female. I am a student with ID 3.
+Hi, I am Luna Lovegood, a 20-year-old Female. I am a student with ID 4.
+Hi, I am Draco Malfoy, a 19-year-old Male. I am a student with ID 5.
+Hi, I am Severus Snape, a 51-year-old Male. I teach Math.
+Hi, I am Albus Dumbledore, a 71-year-old Male. I teach Philosophy.
+Hi, I am Minerva McGonagall, a 62-year-old Female. I teach Sociology.
+Hi, I am Bellatrix Lestrange, a 35-year-old Female. I teach Programming.
+Hi, I am Sirius Black, a 49-year-old Male. I teach Physics.
