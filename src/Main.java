@@ -4,9 +4,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         School school = new School();
-
-        // Process students
-        File studentsFile = new File("/home/mokou/IdeaProjects/students/src/students.txt");
+        File studentsFile = new File("src/students.txt");
         Scanner studentScanner = new Scanner(studentsFile);
         while (studentScanner.hasNextLine()) {
             String[] studentData = studentScanner.nextLine().split(" ");
@@ -21,8 +19,7 @@ public class Main {
         }
         studentScanner.close();
 
-        // Process teachers
-        File teachersFile = new File("/home/mokou/IdeaProjects/students/src/teachers.txt");
+        File teachersFile = new File("src/teachers.txt");
         Scanner teacherScanner = new Scanner(teachersFile);
         while (teacherScanner.hasNextLine()) {
             String[] teacherData = teacherScanner.nextLine().split(" ");
@@ -31,11 +28,10 @@ public class Main {
                     parseGender(teacherData[3]), teacherData[4],
                     Integer.parseInt(teacherData[5]), Integer.parseInt(teacherData[6])
             );
-            school.addMember(teacher);
+            school.addMember(teacher); // Добавление преподавателя в школу
         }
         teacherScanner.close();
 
-        // Output school members
         System.out.println("School Members:");
         System.out.println(school);
     }
